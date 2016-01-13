@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>BootStrap 3 Project for Github</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <header>
+        <!--Header has bootstrap navbar-->
+        <nav class="navbar navbar-default navbar-custom cbp-af-header navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-bar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="brand-logo" href="#intro">
+                        <i class="fa fa-play-circle"></i> BOOTSTRAP WEBSITE
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navigation-bar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#highlights">HIGHLIGHTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="intro img-responsive" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8" style="margin-top:200px;">
+                    <h1 class="brand">Using Bootstrap 3</h1>
+                    <p class="intro-text">This website is designed using Bootstrap 3 and it is completely responsive</p>
+                    <div class="down-icon">
+                        <a class="down-icon-link btn btn-circle" href="#about">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about container-fluid" id="about">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 about-website">
+                <h2 class="aboutwebsite">About this website</h2>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="./img/tech1.jpg" alt="...">
+                            <div class="carousel-caption">
+                                Technology is our DNA
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/tech2.jpg" alt="...">
+                            <div class="carousel-caption">
+                                DNA is good
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/tech3.jpg" alt="...">
+                            <div class="carousel-caption">
+                                We love people with skills
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights row activity-section" id="highlights">
+        <div class="activity-element col-md-4 wow rubberBand">
+            <img src="./img/tech1.jpg"
+            alt="" />
+            <h2>Highlight 1</h2>
+            <p>Some text</p>
+        </div>
+        <div class="activity-element col-md-4 wow fadeInDown">
+            <img src="./img/tech2.jpg"
+            alt="" />
+            <h2>Highlight 2</h2>
+            <p>Some text</p>
+        </div>
+        <div class="activity-element col-md-4 wow bounceInDown">
+            <img src="./img/tech3.jpg"
+            alt="" />
+            <h2>Hightlight 3</h2>
+            <p>Some text</p>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <link rel="stylesheet" href="./bootstrap-3.3.4-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./font-awesome.min.css" />
+    <link rel="stylesheet" href="./myStyle.css" />
+    <link rel="stylesheet" href="./animate.css" />
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="./bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="./AnimatedHeader-master/js/classie.js"></script>
+    <script src="./AnimatedHeader-master/js/cbpAnimatedHeader.js"></script>
+    <script src="./jquery.easing.1.3.js"></script>
+    <script src="./wow.min.js"></script>
+    <script src="./scrolling.js"></script>
+</body>
+
+</html>

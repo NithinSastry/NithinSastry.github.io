@@ -1,0 +1,139 @@
+.navbar{
+    transition: all 0.5s;
+}
+
+.navbar-custom {
+    padding: 20px;
+    background: 0 0;
+    border: none !important;
+}
+
+.navbar-header > a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-content {
+    text-align: center;
+    color: whitesmoke;
+    vertical-align: center;
+}
+
+.brand-logo {
+    padding: 15px;
+    font-weight: 700;
+    float: left;
+    font-size: 18px;
+}
+
+.brand-logo:hover {
+    text-decoration: none !important;
+}
+
+.brand {
+    margin-bottom: 30px;
+    font-size: 87px;
+}
+
+.intro {
+    background: url(img/background-wallpaper.jpeg);
+    color: white;
+    height: 725px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro-text {
+    font-size: 21px;
+}
+
+.down-icon {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.down-icon-link {
+    border: 1px solid white;
+    border-radius: 45px;
+    height: 70px;
+    width: 70px;
+    font-size: 60px;
+}
+
+.down-icon-link:hover{
+    color: white;
+}
+
+.cbp-af-header-shrink {
+    padding: 5px 5px;
+    opacity: 1;
+    background: black;
+}
+
+.withcolor{
+    background: black;
+}
+
+.about{
+    text-align: center;
+    color: white;
+    background-color: white;
+    height: 400px;
+}
+
+.aboutwebsite{
+    color: black;
+}
+
+.item > img{
+    height: 300px !important;
+    text-align: center;    
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.activity-section{
+    margin: 20px 10px;
+}
+
+.activity-element{
+    text-align: center;
+}
+
+.highlights > div > img{
+   width: 160px !important;
+   height: 160px !important;
+}
+
+.another {
+    height: 500px;
+}
+
+@media (max-width:767px) {
+    .brand {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .intro-text {
+        font-size: 17px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .intro {
+        height: 667px;
+    }
+    
+    .down-icon{
+        margin-top: 190px;
+    }
+}
