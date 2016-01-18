@@ -8,10 +8,10 @@
 <body>
     <header>
         <!--Header has bootstrap navbar-->
-        <nav class="navbar navbar-default navbar-custom cbp-af-header navbar-inverse navbar-fixed-top">
+        <nav class="navbar cbp-af-header navbar-inverse navbar-fixed-top navbar-custom">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-bar" aria-expanded="false">
+                    <button id="hamburger" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fixed-navigation-bar" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -23,14 +23,13 @@
                     </a>
                 </div>
 
-                <div class="collapse navbar-collapse" id="navigation-bar">
+                <div class="collapse navbar-collapse" id="fixed-navigation-bar">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#highlights">HIGHLIGHTS</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
-
             </div>
         </nav>
     </header>
@@ -72,19 +71,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="./img/tech1.jpg" alt="...">
+                            <img src="./img/tech1-min.jpg" alt="...">
                             <div class="carousel-caption">
                                 Technology is our DNA
                             </div>
                         </div>
                         <div class="item">
-                            <img src="./img/tech2.jpg" alt="...">
+                            <img src="./img/tech2-min.jpg" alt="...">
                             <div class="carousel-caption">
                                 DNA is good
                             </div>
                         </div>
                         <div class="item">
-                            <img src="./img/tech3.jpg" alt="...">
+                            <img src="./img/tech3-min.jpg" alt="...">
                             <div class="carousel-caption">
                                 We love people with skills
                             </div>
@@ -105,21 +104,21 @@
         </div>
     </section>
 
-    <section class="highlights row activity-section" id="highlights">
+    <section class="highlights row activity-section well" id="highlights">
         <div class="activity-element col-md-4 wow rubberBand">
-            <img src="./img/tech1.jpg"
+            <img src="./img/tech1-min.jpg"
             alt="" />
             <h2>Highlight 1</h2>
             <p>Some text</p>
         </div>
         <div class="activity-element col-md-4 wow fadeInDown">
-            <img src="./img/tech2.jpg"
+            <img src="./img/tech2-min.jpg"
             alt="" />
             <h2>Highlight 2</h2>
             <p>Some text</p>
         </div>
         <div class="activity-element col-md-4 wow bounceInDown">
-            <img src="./img/tech3.jpg"
+            <img src="./img/tech3-min.jpg"
             alt="" />
             <h2>Hightlight 3</h2>
             <p>Some text</p>

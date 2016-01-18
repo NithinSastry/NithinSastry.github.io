@@ -43,7 +43,7 @@
 }
 
 .intro {
-    background: url(img/background-wallpaper.jpeg);
+    background: url(img/background-wallpaper-min.jpeg);
     color: white;
     height: 725px;
     background-size: cover;
@@ -135,5 +135,9 @@
     
     .down-icon{
         margin-top: 190px;
+    }
+    
+    .navbar-custom{
+        background: black;
     }
 }
